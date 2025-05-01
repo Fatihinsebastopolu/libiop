@@ -1,3 +1,6 @@
+## Note
+If compiler throws "unknown argument -c11" when calling make, go to build/depends/benchmark/test/CMakeFiles/donotoptimize_test.dir/flags.make and remove the erroneous flag from line 9.
+No need to use Git Submodule for related dependencies. They have been copied into the repo and fixed. --Sebastian Li
 <h1 align="center">libiop: a C++ library for IOP-based zkSNARKs</h1>
 <p align="center">
    <a href="https://github.com/scipr-lab/libiop/blob/master/AUTHORS"><img src="https://img.shields.io/badge/authors-SCIPR%20Lab-orange.svg"></a>
